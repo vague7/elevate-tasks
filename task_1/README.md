@@ -40,7 +40,7 @@ Here are some screenshots of the landing page on different devices:
 
 ### Desktop View
 
-![Desktop View Placeholder](path/to/your/desktop-screenshot.png)
+![Hero Section](task_1/footer.jpg)
 
 ### Mobile View (Menu Closed)
 
