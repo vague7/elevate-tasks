@@ -42,13 +42,9 @@ Here are some screenshots of the landing page on different devices:
 
 <img src="./hero.jpg" >
 
-### Mobile View (Menu Closed)
+### Footer
 
-![Mobile View Menu Closed Placeholder](path/to/your/mobile-closed-screenshot.png)
-
-### Mobile View (Menu Open)
-
-![Mobile View Menu Open Placeholder](path/to/your/mobile-open-screenshot.png)
+<img src="./footer.jpg" >
 
 ## Files
 
