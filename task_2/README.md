@@ -1,0 +1,54 @@
+<h1 align="center">
+  <img title="To-Do List" src="images/list.png" alt="NETFLIX Logo" width="200" />
+  <br>
+  To-Do List
+</h1>
+
+
+# 📖 To Do List <a name="about-project"></a>
+
+A tool that helps to organize your day. To-do list is a set of tasks that each render on a separate line with a clickable checkbox. You can select or deselect the checkboxes to mark the tasks as complete or incomplete.
+
+
+![screenshot](images/todolist.png)
+
+## 🛠 Built With 
+
+### Tech Stack 
+
+I have built this project using the following tools & techniques:
+
+- HTML
+- CSS
+- JavaScript
+
+### Key Features 
+
+- Add a new task
+- Delete single task
+- Delete completed tasks
+- Mark task as completed / uncompleted
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+
+
+2. Open the project in your preferred code editor.
+
+3. Launch the `index.html` file in a web browser to view the Netflix home page.
+
+4. Feel free to modify the code and customize the page according to your preferences. You can update the content, change the colors, or add new features.
+
+## 🤝 Contributing 
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](/issues).
+
+## ⭐️ Show your support 
+
+Give a ⭐️ if you like this project!
+
+## 📝 License 
+This project is [MIT](./LICENSE) licensed.
