@@ -18,17 +18,17 @@ A modern, responsive contact form with comprehensive client-side validation, bui
 ## 📸 Screenshots
 
 ### Desktop View
-<img src="/desktop.jpg">
+<img src="./desktop.jpg">
 *Clean, professional desktop layout with gradient background*
 
 ### Validation States
-<img src="/states1.jpg">
+<img src="./states1.jpg">
 
-<img src="/states2.jpg">
+<img src="./states2.jpg">
 *Real-time validation with error and success states*
 
 ### Success Message
-<img src="/success.jpg">
+<img src="./success.jpg">
 *Animated success confirmation*
 
 ## 🛠️ Technical Implementation
