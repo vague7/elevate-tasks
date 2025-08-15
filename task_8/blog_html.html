@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBlog - Latest Insights</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-code-slash me-2"></i>TechBlog
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#categories">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section bg-gradient text-white">
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 fw-bold mb-4 animate-fade-in">Welcome to TechBlog</h1>
+                    <p class="lead mb-5 animate-slide-up">Exploring the latest trends in technology, AI, and software development</p>
+                    <a href="#posts" class="btn btn-light btn-lg px-5 py-3 rounded-pill animate-bounce">
+                        Explore Posts <i class="bi bi-arrow-down ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section id="posts" class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-5 fw-bold mb-3">Latest Posts</h2>
+                    <p class="text-muted">Stay updated with our latest insights and tutorials</p>
+                </div>
+            </div>
+            
+            <!-- Featured Post -->
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <div class="card featured-card border-0 shadow-lg">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop&crop=center" 
+                                     class="img-fluid rounded-start h-100 object-cover" alt="AI and Machine Learning Concept">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body h-100 d-flex flex-column justify-content-center p-5">
+                                    <span class="badge bg-primary mb-3 align-self-start">Featured</span>
+                                    <h3 class="card-title fw-bold mb-3">The Future of Artificial Intelligence in Software Development</h3>
+                                    <p class="card-text text-muted mb-4">Discover how AI is revolutionizing the way we write, test, and deploy code. From automated testing to intelligent code completion...</p>
+                                    <div class="d-flex justify-content-between align-items-center mb-4">
+                                        <small class="text-muted">
+                                            <i class="bi bi-calendar me-1"></i>January 15, 2024
+                                        </small>
+                                        <small class="text-muted">
+                                            <i class="bi bi-clock me-1"></i>8 min read
+                                        </small>
+                                    </div>
+                                    <a href="#" class="btn btn-primary btn-lg">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Regular Blog Posts -->
+            <div class="row g-4">
+                <!-- Post 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop&crop=center" 
+                             class="card-img-top" alt="Machine Learning Data Analysis">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-success">Machine Learning</span>
+                                <small class="text-muted">Jan 12, 2024</small>
+                            </div>
+                            <h5 class="card-title fw-bold">Building Scalable ML Pipelines with Python</h5>
+                            <p class="card-text text-muted flex-grow-1">Learn how to create robust and scalable machine learning pipelines that can handle production workloads efficiently...</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <small class="text-muted">
+                                    <i class="bi bi-clock me-1"></i>6 min read
+                                </small>
+                                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=250&fit=crop&crop=center" 
+                             class="card-img-top" alt="Cloud Computing Infrastructure">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-info">Cloud Computing</span>
+                                <small class="text-muted">Jan 10, 2024</small>
+                            </div>
+                            <h5 class="card-title fw-bold">Microservices Architecture on AWS</h5>
+                            <p class="card-text text-muted flex-grow-1">Explore best practices for designing and deploying microservices using AWS Lambda, API Gateway, and container services...</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <small class="text-muted">
+                                    <i class="bi bi-clock me-1"></i>10 min read
+                                </small>
+                                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <img src="https://images.unsplash.com/photo-1618477461853-cf6ed80faba5?w=400&h=250&fit=crop&crop=center" 
+                             class="card-img-top" alt="DevOps Pipeline Automation">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-warning text-dark">DevOps</span>
+                                <small class="text-muted">Jan 8, 2024</small>
+                            </div>
+                            <h5 class="card-title fw-bold">CI/CD Pipeline with Docker & Kubernetes</h5>
+                            <p class="card-text text-muted flex-grow-1">Master the art of continuous integration and deployment using modern containerization and orchestration tools...</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <small class="text-muted">
+                                    <i class="bi bi-clock me-1"></i>12 min read
+                                </small>
+                                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 4 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=250&fit=crop&crop=center" 
+                             class="card-img-top" alt="Cybersecurity and Data Protection">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-danger">Security</span>
+                                <small class="text-muted">Jan 5, 2024</small>
+                            </div>
+                            <h5 class="card-title fw-bold">Zero Trust Architecture Implementation</h5>
+                            <p class="card-text text-muted flex-grow-1">Implement modern security practices with Zero Trust principles to protect your applications and infrastructure...</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <small class="text-muted">
+                                    <i class="bi bi-clock me-1"></i>9 min read
+                                </small>
+                                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 5 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop&crop=center" 
+                             class="card-img-top" alt="Data Analytics and Visualization">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-success">Data Science</span>
+                                <small class="text-muted">Jan 3, 2024</small>
+                            </div>
+                            <h5 class="card-title fw-bold">Real-time Analytics with Apache Kafka</h5>
+                            <p class="card-text text-muted flex-grow-1">Build scalable real-time data processing systems using Apache Kafka and stream processing frameworks...</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <small class="text-muted">
+                                    <i class="bi bi-clock me-1"></i>11 min read
+                                </small>
+                                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 6 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400&h=250&fit=crop&crop=center" 
+                             class="card-img-top" alt="Modern Web Development">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-primary">Web Development</span>
+                                <small class="text-muted">Dec 30, 2023</small>
+                            </div>
+                            <h5 class="card-title fw-bold">Modern React Patterns & Best Practices</h5>
+                            <p class="card-text text-muted flex-grow-1">Discover advanced React patterns including hooks, context, and performance optimization techniques...</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <small class="text-muted">
+                                    <i class="bi bi-clock me-1"></i>7 min read
+                                </small>
+                                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <button class="btn btn-primary btn-lg px-5" id="loadMoreBtn">
+                        <i class="bi bi-arrow-down me-2"></i>Load More Posts
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h3 class="fw-bold mb-3">Stay Updated</h3>
+                    <p class="mb-4">Subscribe to our newsletter and never miss the latest tech insights</p>
+                    <form class="row g-3 justify-content-center">
+                        <div class="col-md-6">
+                            <input type="email" class="form-control form-control-lg" placeholder="Enter your email">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-light btn-lg">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-code-slash me-2"></i>TechBlog
+                    </h5>
+                    <p class="text-muted mb-3">Exploring the cutting edge of technology and software development. Join our community of developers and tech enthusiasts.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-github"></i></a>
+                        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">About</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Categories</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Categories</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">AI & ML</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Cloud Computing</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">DevOps</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Security</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-4">
+                    <h6 class="fw-bold mb-3">Contact Info</h6>
+                    <div class="text-muted">
+                        <p class="mb-2"><i class="bi bi-envelope me-2"></i>hello@techblog.com</p>
+                        <p class="mb-2"><i class="bi bi-phone me-2"></i>+1 (555) 123-4567</p>
+                        <p class="mb-0"><i class="bi bi-geo-alt me-2"></i>San Francisco, CA</p>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="my-4">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-muted mb-0">&copy; 2024 TechBlog. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-muted text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-muted text-decoration-none">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
